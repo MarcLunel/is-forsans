@@ -66,9 +66,9 @@
 .header__menu span {
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   cursor: pointer;
   width: 100%;
   text-align: center;
@@ -86,9 +86,14 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.header__button a {
+  color: #FFF;
+  text-decoration: none;
 }
 
 /* Hamburger menu */
@@ -247,6 +252,17 @@
   .header__menu span:hover {
     color: #A62139;
     background-color: #FDEFF5;
+  }
+  .header__button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 

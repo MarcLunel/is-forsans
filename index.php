@@ -30,7 +30,7 @@
             <span class="menu__contact-button">Contact</span>
         </div>
         <div class="header__button">
-            <button>06.87.69.77.39</button>
+            <button><a href="tel:0687697739">06.87.69.77.39</a></button>
         </div>        
     </header>
     
