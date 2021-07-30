@@ -524,6 +524,7 @@
 
 .main .main__texts p, .main .main__texts ul {
   margin-bottom: 1em;
+  text-align: justify;
 }
 
 .main .main__texts .texts__hypnosis {
