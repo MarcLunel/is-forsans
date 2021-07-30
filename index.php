@@ -44,14 +44,14 @@
     </div>
 
     <!-- CONTENT -->
-    <img class="flower-top" src="./img/flower1.webp" alt="Plante décoration 1">
-    <img class="flower-middle" src="./img/flower2.webp" alt="Plante décoration 2">
-    <img class="flower-bottom" src="./img/flower3.webp" alt="Plante décoration 3">
+    <img class="flower-top" src="./img/flower1.png" alt="Plante décoration 1">
+    <img class="flower-middle" src="./img/flower2.png" alt="Plante décoration 2">
+    <img class="flower-bottom" src="./img/flower3.png" alt="Plante décoration 3">
     <main class="main">
         <!-- INTRO -->
         <section class="main__introduction">
             <div class="introduction__flower">
-                <img src="./img/mainflower.webp" alt="Grande fleur rose">
+                <img src="./img/mainflower.png" alt="Grande fleur rose">
             </div>
             <div class="introduction__text">
                 <h2>Je vous propose un accompagnement tant physique qu'émotionnel</h2>
@@ -70,7 +70,7 @@
                 </div>
                 <div class="hypnosis__image">
                     <div class="hypnosis__image-circle">
-                        <img src="./img/hypnosis.webp" alt="Hypnothérapie">
+                        <img src="./img/hypnosis.png" alt="Hypnothérapie">
                     </div>
                 </div>
                 <a href="https://www.doctolib.fr/hypnotherapeute/pau/isabelle-forsans?utm_campaign=website-button&amp;utm_source=isabelle-forsans-website-button&amp;utm_medium=referral&amp;utm_content=option-3&amp;utm_term=isabelle-forsans" target="_blank" alt="Prendre rendez-vous via DoctoLib">Prendre rendez-vous via DoctoLib</a>
@@ -78,7 +78,7 @@
             <div class="texts__quantum">
                 <div class="quantum__image">
                     <div class="quantum__image-circle">
-                        <img src="./img/quantum.webp" alt="Communication quantique">
+                        <img src="./img/quantum.png" alt="Communication quantique">
                     </div>
                 </div>
                 <div class="quantum__text">
@@ -96,7 +96,7 @@
                 </div>
                 <div class="bba__image">
                     <div class="bba__image-circle">
-                        <img src="./img/allergy.webp" alt="Allergies">
+                        <img src="./img/allergy.png" alt="Allergies">
                     </div>
                 </div>
                 <a href="https://www.doctolib.fr/hypnotherapeute/pau/isabelle-forsans?utm_campaign=website-button&amp;utm_source=isabelle-forsans-website-button&amp;utm_medium=referral&amp;utm_content=option-3&amp;utm_term=isabelle-forsans" target="_blank" alt="Prendre rendez-vous via DoctoLib">Prendre rendez-vous via DoctoLib</a>
@@ -125,7 +125,7 @@
     <!-- FOOTER -->
     <footer class="footer">
         <div class="footer__france">
-            <img src="./img/france.webp" alt="Logo France Relance">
+            <img src="./img/france.png" alt="Logo France Relance">
             <p>Ce projet a été financé par le Gouvernement dans le cadre du plan de relance</p>
         </div> 
 

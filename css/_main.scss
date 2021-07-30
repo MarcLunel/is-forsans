@@ -23,6 +23,7 @@
 
         h2{
             margin-bottom: 20px;
+            font-family: "Lato";
         }
 
         p{
@@ -139,6 +140,7 @@
             grid-area: 1 / 2 / span 1 / span 1;
             background-color: $blanc;
             font-size: 48px;
+            padding-bottom:30px;
         }
     
         p, ul{
@@ -375,6 +377,10 @@
         .introduction__text{
             grid-area: 1 / 2 / span 1 / span 1;
 
+            h2{
+                font-size: 30px;
+            }
+
             p{
                 font-size: 24px;
             }
@@ -439,6 +445,10 @@
         .introduction__text{
             margin-bottom:80px;
 
+            h2{
+                font-size: 36px;
+            }
+
             p{
                 font-size: 30px;
             }
@@ -499,6 +509,10 @@
             margin-bottom:100px;
             padding-left: 150px;
             padding-right: 150px;
+
+            h2{
+                font-size: 40px;
+            }
 
             p{
                 font-size: 36px;

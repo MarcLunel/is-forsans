@@ -345,6 +345,7 @@
 
 .main__introduction .introduction__text h2 {
   margin-bottom: 20px;
+  font-family: "Lato";
 }
 
 .main__introduction .introduction__text p {
@@ -518,6 +519,7 @@
   grid-area: 1 / 2 / span 1 / span 1;
   background-color: #FFF;
   font-size: 48px;
+  padding-bottom: 30px;
 }
 
 .main .main__texts p, .main .main__texts ul {
@@ -817,6 +819,9 @@
     -ms-grid-column-span: 1;
     grid-area: 1 / 2 / span 1 / span 1;
   }
+  .main__introduction .introduction__text h2 {
+    font-size: 30px;
+  }
   .main__introduction .introduction__text p {
     font-size: 24px;
   }
@@ -873,6 +878,9 @@
   .main__introduction .introduction__text {
     margin-bottom: 80px;
   }
+  .main__introduction .introduction__text h2 {
+    font-size: 36px;
+  }
   .main__introduction .introduction__text p {
     font-size: 30px;
   }
@@ -914,6 +922,9 @@
     margin-bottom: 100px;
     padding-left: 150px;
     padding-right: 150px;
+  }
+  .main__introduction .introduction__text h2 {
+    font-size: 40px;
   }
   .main__introduction .introduction__text p {
     font-size: 36px;
@@ -1114,7 +1125,7 @@
   }
   .footer .footer__france {
     position: absolute;
-    right: 0;
+    right: -120px;
     bottom: 0;
     display: -webkit-box;
     display: -ms-flexbox;
