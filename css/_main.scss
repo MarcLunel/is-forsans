@@ -162,6 +162,7 @@
             
             .hypnosis__image{
                 grid-area: 1 / 10 / span 1 / span 2;
+                display: none;
 
                 img{
                     transform: translateY(5px);
@@ -170,6 +171,26 @@
                 }
                 
                 .hypnosis__image-circle{
+                    position:relative;
+                    border: 3px solid $rose;
+                    border-radius: 50%;
+                    transition: 0.4s;
+                }
+            }
+
+            .hypnosis__image-little{
+                width:70px;
+                height: auto;
+                float: right;
+                margin-left: 20px;
+
+                img{
+                    transform: translateY(5px);
+                    width: 100%;
+                    height: auto;
+                }
+                
+                .hypnosis__image-little-circle{
                     position:relative;
                     border: 3px solid $rose;
                     border-radius: 50%;
@@ -196,6 +217,7 @@
 
             .quantum__image{
                 grid-area: 1 / 10 / span 1 / span 2;
+                display: none;
 
                 img{
                     transform: translateY(10px);
@@ -204,6 +226,26 @@
                 }
                 
                 .quantum__image-circle{
+                    position:relative;
+                    border: 3px solid $rose;
+                    border-radius: 50%;
+                    transition: 0.4s;
+                }
+            }
+
+            .quantum__image-little{
+                width:70px;
+                height: auto;
+                float: right;
+                margin-left: 20px;
+
+                img{
+                    transform: translateY(5px);
+                    width: 100%;
+                    height: auto;
+                }
+                
+                .quantum__image-little-circle{
                     position:relative;
                     border: 3px solid $rose;
                     border-radius: 50%;
@@ -230,6 +272,7 @@
 
             .bba__image{
                 grid-area: 1 / 10 / span 1 / span 2;
+                display: none;
 
                 img{
                     transform: translateX(10px) translateY(5px);
@@ -238,6 +281,26 @@
                 }
                 
                 .bba__image-circle{
+                    position:relative;
+                    border: 3px solid $rose;
+                    border-radius: 50%;
+                    transition: 0.4s;
+                }
+            }
+
+            .bba__image-little{
+                width:70px;
+                height: auto;
+                float: right;
+                margin-left: 20px;
+
+                img{
+                    transform: translateX(5px) translateY(5px);
+                    width: 100%;
+                    height: auto;
+                }
+                
+                .bba__image-little-circle{
                     position:relative;
                     border: 3px solid $rose;
                     border-radius: 50%;
@@ -317,10 +380,16 @@
                 }
 
                 .hypnosis__image, .bba__image{
+                    display: initial;
                     grid-area: 1 / 11 / span 1 / span 1;
                 }
 
+                .hypnosis__image-little, .quantum__image-little, .bba__image-little{
+                    display: none;
+                }
+
                 .quantum__image{
+                    display: initial;
                     grid-area: 1 / 2 / span 1 / span 1;
                 }
 

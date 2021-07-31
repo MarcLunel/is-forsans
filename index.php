@@ -64,6 +64,11 @@
             <h2>Mes Services</h2>
             <div class="texts__hypnosis">
                 <div class="hypnosis__text">
+                    <div class="hypnosis__image-little mobile-visible">
+                        <div class="hypnosis__image-little-circle">
+                            <img src="./img/hypnosis.png" alt="Hypnothérapie">
+                        </div>
+                    </div>
 
                     <?php include "./texts/hypnose.html"; ?>
 
@@ -82,6 +87,11 @@
                     </div>
                 </div>
                 <div class="quantum__text">
+                    <div class="quantum__image-little mobile-visible">
+                        <div class="quantum__image-little-circle">
+                            <img src="./img/quantum.png" alt="Communication quantique">
+                        </div>
+                    </div>
 
                     <?php include "./texts/communication-quantique.html"; ?>
 
@@ -90,6 +100,11 @@
             </div>
             <div class="texts__bba">
                 <div class="bba__text">
+                    <div class="bba__image-little mobile-visible">
+                        <div class="bba__image-little-circle">
+                            <img src="./img/allergy.png" alt="Bye Bye Allergies">
+                        </div>
+                    </div>
 
                     <?php include "./texts/bye-bye-allergies.html"; ?>
 

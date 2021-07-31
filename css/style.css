@@ -557,6 +557,7 @@
   -ms-grid-column: 10;
   -ms-grid-column-span: 2;
   grid-area: 1 / 10 / span 1 / span 2;
+  display: none;
 }
 
 .main .main__texts .texts__hypnosis .hypnosis__image img {
@@ -567,6 +568,28 @@
 }
 
 .main .main__texts .texts__hypnosis .hypnosis__image .hypnosis__image-circle {
+  position: relative;
+  border: 3px solid #A62139;
+  border-radius: 50%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.main .main__texts .texts__hypnosis .hypnosis__image-little {
+  width: 70px;
+  height: auto;
+  float: right;
+  margin-left: 20px;
+}
+
+.main .main__texts .texts__hypnosis .hypnosis__image-little img {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  width: 100%;
+  height: auto;
+}
+
+.main .main__texts .texts__hypnosis .hypnosis__image-little .hypnosis__image-little-circle {
   position: relative;
   border: 3px solid #A62139;
   border-radius: 50%;
@@ -612,6 +635,7 @@
   -ms-grid-column: 10;
   -ms-grid-column-span: 2;
   grid-area: 1 / 10 / span 1 / span 2;
+  display: none;
 }
 
 .main .main__texts .texts__quantum .quantum__image img {
@@ -622,6 +646,28 @@
 }
 
 .main .main__texts .texts__quantum .quantum__image .quantum__image-circle {
+  position: relative;
+  border: 3px solid #A62139;
+  border-radius: 50%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.main .main__texts .texts__quantum .quantum__image-little {
+  width: 70px;
+  height: auto;
+  float: right;
+  margin-left: 20px;
+}
+
+.main .main__texts .texts__quantum .quantum__image-little img {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  width: 100%;
+  height: auto;
+}
+
+.main .main__texts .texts__quantum .quantum__image-little .quantum__image-little-circle {
   position: relative;
   border: 3px solid #A62139;
   border-radius: 50%;
@@ -667,6 +713,7 @@
   -ms-grid-column: 10;
   -ms-grid-column-span: 2;
   grid-area: 1 / 10 / span 1 / span 2;
+  display: none;
 }
 
 .main .main__texts .texts__bba .bba__image img {
@@ -677,6 +724,28 @@
 }
 
 .main .main__texts .texts__bba .bba__image .bba__image-circle {
+  position: relative;
+  border: 3px solid #A62139;
+  border-radius: 50%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.main .main__texts .texts__bba .bba__image-little {
+  width: 70px;
+  height: auto;
+  float: right;
+  margin-left: 20px;
+}
+
+.main .main__texts .texts__bba .bba__image-little img {
+  -webkit-transform: translateX(5px) translateY(5px);
+          transform: translateX(5px) translateY(5px);
+  width: 100%;
+  height: auto;
+}
+
+.main .main__texts .texts__bba .bba__image-little .bba__image-little-circle {
   position: relative;
   border: 3px solid #A62139;
   border-radius: 50%;
@@ -749,13 +818,18 @@
     grid-area: 2 / 3 / span 1 / span 8;
   }
   .main .main__texts .texts__hypnosis .hypnosis__image, .main .main__texts .texts__hypnosis .bba__image, .main .main__texts .texts__quantum .hypnosis__image, .main .main__texts .texts__quantum .bba__image, .main .main__texts .texts__bba .hypnosis__image, .main .main__texts .texts__bba .bba__image {
+    display: initial;
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     -ms-grid-column: 11;
     -ms-grid-column-span: 1;
     grid-area: 1 / 11 / span 1 / span 1;
   }
+  .main .main__texts .texts__hypnosis .hypnosis__image-little, .main .main__texts .texts__hypnosis .quantum__image-little, .main .main__texts .texts__hypnosis .bba__image-little, .main .main__texts .texts__quantum .hypnosis__image-little, .main .main__texts .texts__quantum .quantum__image-little, .main .main__texts .texts__quantum .bba__image-little, .main .main__texts .texts__bba .hypnosis__image-little, .main .main__texts .texts__bba .quantum__image-little, .main .main__texts .texts__bba .bba__image-little {
+    display: none;
+  }
   .main .main__texts .texts__hypnosis .quantum__image, .main .main__texts .texts__quantum .quantum__image, .main .main__texts .texts__bba .quantum__image {
+    display: initial;
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     -ms-grid-column: 2;
