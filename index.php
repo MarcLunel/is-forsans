@@ -27,7 +27,7 @@
             <span class="menu__hypno-button">Hypnothérapie</span>
             <span class="menu__quantum-button">Communication quantique</span>
             <span class="menu__bba-button">Bye Bye Allergies</span>
-            <span class="menu__contact-button">Contact</span>
+            <span class="menu__contact-button">Me contacter</span>
         </div>
         <div class="header__button">
             <button><a href="tel:0687697739">06.87.69.77.39</a></button>
@@ -107,7 +107,7 @@
         <section class="main__contact">
             <div class="contact">
 
-                <h2>Contact</h2>
+                <h2>Me contacter</h2>
                 <form class="contact-form" action="./php/traitement_contact.php" method="POST">
                     <input class="contact-form__input" type="text" name="name" placeholder="Votre nom" htmlspecialchars required>
                     <input class="contact-form__input" type="email" name="email" placeholder="Votre email" htmlspecialchars required>
@@ -145,7 +145,7 @@
                     <li><span class="menu__hypno-button">Hypnothérapie</span></li>
                     <li><span class="menu__quantum-button">Communication quantique</span></li>
                     <li><span class="menu__bba-button">Bye Bye Allergies</span></li>
-                    <li><span class="menu__contact-button">Contact</span></li>
+                    <li><span class="menu__contact-button">Me contacter</span></li>
                 </ul>
             </div>
         </div>

@@ -161,7 +161,7 @@
             }
             
             .hypnosis__image{
-                grid-area: 1 / 9 / span 1 / span 3;
+                grid-area: 1 / 10 / span 1 / span 2;
 
                 img{
                     transform: translateY(5px);
@@ -195,7 +195,7 @@
             }
 
             .quantum__image{
-                grid-area: 1 / 9 / span 1 / span 3;
+                grid-area: 1 / 10 / span 1 / span 2;
 
                 img{
                     transform: translateY(10px);
@@ -229,10 +229,10 @@
             }
 
             .bba__image{
-                grid-area: 1 / 9 / span 1 / span 3;
+                grid-area: 1 / 10 / span 1 / span 2;
 
                 img{
-                    transform: translateX(10px) translateY(10px);
+                    transform: translateX(10px) translateY(5px);
                     width: 100%;
                     height: auto;
                 }
@@ -304,7 +304,7 @@
             .texts__bba{
                 .bba__image{
                     img{
-                        transform: translateX(10px) translateY(10px);
+                        transform: translateX(10px) translateY(5px);
                     }
                 }
             }
@@ -317,11 +317,11 @@
                 }
 
                 .hypnosis__image, .bba__image{
-                    grid-area: 1 / 10 / span 1 / span 2;
+                    grid-area: 1 / 11 / span 1 / span 1;
                 }
 
                 .quantum__image{
-                    grid-area: 1 / 2 / span 1 / span 2;
+                    grid-area: 1 / 2 / span 1 / span 1;
                 }
 
                 .hypnosis__text, .bba__text{
@@ -405,7 +405,7 @@
             h2{
                 font-size: 48px;
             }
-
+            
             .texts__hypnosis, .texts__quantum, .texts__bba{
                 & > a {
                     grid-area: 2 / 4 / span 1 / span 6;
@@ -413,7 +413,7 @@
 
                 .bba__image{
                     img{
-                        transform: translateX(20px) translateY(10px);
+                        transform: translateX(10px) translateY(5px);
                     }
                 }
             }
@@ -470,6 +470,17 @@
         .main__texts{
             h2{
                 font-size: 54px;
+            }
+
+            .texts__hypnosis, .texts__quantum, .texts__bba{
+
+                .hypnosis__image, .bba__image{
+                    grid-area: 1 / 10 / span 1 / span 2;
+                }
+
+                .quantum__image{
+                    grid-area: 1 / 2 / span 1 / span 2;
+                }
             }
         }
 

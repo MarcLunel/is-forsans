@@ -554,9 +554,9 @@
 .main .main__texts .texts__hypnosis .hypnosis__image {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
-  -ms-grid-column: 9;
-  -ms-grid-column-span: 3;
-  grid-area: 1 / 9 / span 1 / span 3;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 2;
+  grid-area: 1 / 10 / span 1 / span 2;
 }
 
 .main .main__texts .texts__hypnosis .hypnosis__image img {
@@ -609,9 +609,9 @@
 .main .main__texts .texts__quantum .quantum__image {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
-  -ms-grid-column: 9;
-  -ms-grid-column-span: 3;
-  grid-area: 1 / 9 / span 1 / span 3;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 2;
+  grid-area: 1 / 10 / span 1 / span 2;
 }
 
 .main .main__texts .texts__quantum .quantum__image img {
@@ -664,14 +664,14 @@
 .main .main__texts .texts__bba .bba__image {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
-  -ms-grid-column: 9;
-  -ms-grid-column-span: 3;
-  grid-area: 1 / 9 / span 1 / span 3;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 2;
+  grid-area: 1 / 10 / span 1 / span 2;
 }
 
 .main .main__texts .texts__bba .bba__image img {
-  -webkit-transform: translateX(10px) translateY(10px);
-          transform: translateX(10px) translateY(10px);
+  -webkit-transform: translateX(10px) translateY(5px);
+          transform: translateX(10px) translateY(5px);
   width: 100%;
   height: auto;
 }
@@ -734,8 +734,8 @@
     font-size: 54px;
   }
   .main .main__texts .texts__bba .bba__image img {
-    -webkit-transform: translateX(10px) translateY(10px);
-            transform: translateX(10px) translateY(10px);
+    -webkit-transform: translateX(10px) translateY(5px);
+            transform: translateX(10px) translateY(5px);
   }
   .main .main__texts .texts__hypnosis, .main .main__texts .texts__quantum, .main .main__texts .texts__bba {
     -ms-grid-rows: auto 1fr;
@@ -751,16 +751,16 @@
   .main .main__texts .texts__hypnosis .hypnosis__image, .main .main__texts .texts__hypnosis .bba__image, .main .main__texts .texts__quantum .hypnosis__image, .main .main__texts .texts__quantum .bba__image, .main .main__texts .texts__bba .hypnosis__image, .main .main__texts .texts__bba .bba__image {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 10;
-    -ms-grid-column-span: 2;
-    grid-area: 1 / 10 / span 1 / span 2;
+    -ms-grid-column: 11;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 11 / span 1 / span 1;
   }
   .main .main__texts .texts__hypnosis .quantum__image, .main .main__texts .texts__quantum .quantum__image, .main .main__texts .texts__bba .quantum__image {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     -ms-grid-column: 2;
-    -ms-grid-column-span: 2;
-    grid-area: 1 / 2 / span 1 / span 2;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 2 / span 1 / span 1;
   }
   .main .main__texts .texts__hypnosis .hypnosis__text, .main .main__texts .texts__hypnosis .bba__text, .main .main__texts .texts__quantum .hypnosis__text, .main .main__texts .texts__quantum .bba__text, .main .main__texts .texts__bba .hypnosis__text, .main .main__texts .texts__bba .bba__text {
     -ms-grid-row: 1;
@@ -852,8 +852,8 @@
     grid-area: 2 / 4 / span 1 / span 6;
   }
   .main .main__texts .texts__hypnosis .bba__image img, .main .main__texts .texts__quantum .bba__image img, .main .main__texts .texts__bba .bba__image img {
-    -webkit-transform: translateX(20px) translateY(10px);
-            transform: translateX(20px) translateY(10px);
+    -webkit-transform: translateX(10px) translateY(5px);
+            transform: translateX(10px) translateY(5px);
   }
 }
 
@@ -893,6 +893,20 @@
   }
   .main .main__texts h2 {
     font-size: 54px;
+  }
+  .main .main__texts .texts__hypnosis .hypnosis__image, .main .main__texts .texts__hypnosis .bba__image, .main .main__texts .texts__quantum .hypnosis__image, .main .main__texts .texts__quantum .bba__image, .main .main__texts .texts__bba .hypnosis__image, .main .main__texts .texts__bba .bba__image {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 10;
+    -ms-grid-column-span: 2;
+    grid-area: 1 / 10 / span 1 / span 2;
+  }
+  .main .main__texts .texts__hypnosis .quantum__image, .main .main__texts .texts__quantum .quantum__image, .main .main__texts .texts__bba .quantum__image {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: 1 / 2 / span 1 / span 2;
   }
   .main__contact .contact-form .contact-form__input {
     font-size: 24px;
