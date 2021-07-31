@@ -670,8 +670,8 @@
 }
 
 .main .main__texts .texts__bba .bba__image img {
-  -webkit-transform: translateX(15px) translateY(10px);
-          transform: translateX(15px) translateY(10px);
+  -webkit-transform: translateX(10px) translateY(10px);
+          transform: translateX(10px) translateY(10px);
   width: 100%;
   height: auto;
 }
